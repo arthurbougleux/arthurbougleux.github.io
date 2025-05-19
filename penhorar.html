@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link href="assets/css/bootstrap.css" rel="stylesheet">
+   <link href="assets/css/all.css" rel="stylesheet">
+   <link href="assets/css/styles.css" rel="stylesheet">
+   <title>Bootstrap</title>
+</head>
+
+<!--
+<body>
+   <nav class="navbar navbar-light bg-light navbar-expand-md">
+      <div class="container">
+         <a class="navbar-brand" href="#">
+            Antiquário Antônio de Aquário</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="menu">
+            <div class="navbar-nav mr-auto">
+               <a class="nav-link nav-item" href="#reliquias">Relíquias</a>
+               <div class="dropdown">
+                  <a class="nav-link nav-item dropdown-toggle" data-toggle="dropdown" href="#contato">Contatos</a>
+                  <div class="dropdown-menu">
+                     <a class="dropdown-item" hrefs="#">Parceiros</a>
+                     <a class="dropdown-item" hrefs="#">Faça parte</a>
+                     <a class="dropdown-item" hrefs="#">SAC</a>
+                  </div>
+               </div>
+               <a class="nav-link nav-item" href="#sobre">Sobre</a>
+            </div>
+
+         <div class="navbar-nav">
+            <a class="nav-link nav-item" href="#pedidos">Meus Pedidos</a>
+            <a class="nav-link nav-item" href="#entrar"><i class="fa-solid fa-right-to-bracket"> </i> Entrar</a>
+         </div>
+      </div>
+   </nav>
+
+
+-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Antiquário Antônio de Aquário</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+               <a class="nav-link active" aria-current="index.html" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="reliquias.html">Reliquias</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="penhorar.html">Penhorar</a>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Sobre
+               </a>
+               <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="contatos.html">Contatos</a></li>
+                  <li><a class="dropdown-item" href="parceiros.html">Parceiros</a></li>
+                  <li><a class="dropdown-item" href="#">Faça parte</a></li>
+               </ul>
+            </li>
+         </ul>
+         <div class="navbar-nav">
+            <a class="nav-link nav-item" href="#pedidos">Meus Pedidos</a>
+            <a class="nav-link nav-item" href="#entrar"><i class="fa-solid fa-right-to-bracket"> </i> Entrar</a>
+         </div>
+      </div>
+   </div>
+</nav>
+
+
+<div class="container-fluid ">
+    
+</div>
+
+
+<div class="container-lg">
+<h3 class="my-4">Bem vindo, Fulano. O que deseja penhorar hoje?</h3>
+
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Nome do item" aria-label="Nome do item" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+     <span class="input-group-text">R$</span>
+  <input type="text" class="form-control" placeholder="Valor esperado" aria-label="Valor esperado">
+  <span class="input-group-text"><i class="fa-regular fa-calendar"></i></span>
+  <input type="text" class="form-control" placeholder="Data de origem (aproximada)" aria-label="Server">
+</div>
+
+<div class="input-group mb-2">
+  <span class="input-group-text">Descrição</span>
+  <textarea class="form-control" style="text-align: left;" aria-label="Descrição detalhada da origem e estado do artigo"></textarea>
+</div>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sendModal">
+  Enviar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="sendModal" tabindex="-1" aria-labelledby="Modal de envio" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Artigo registrado com sucesso!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sua solicitação foi aceita e será avaliada por um dos nossos especialistas. Entraremos em contato.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tudo bem</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+<script src="assets/js/jquery-3.3.1.js"></script>
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
